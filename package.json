@@ -5,7 +5,9 @@
   "main": "main.js",
   "dependencies": {
     "electron": "^1.6.2",
-    "path": "^0.12.7"
+    "jquery": "^3.2.1",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
   },
   "devDependencies": {},
   "scripts": {
