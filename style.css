@@ -1,0 +1,215 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Dosis', sans-serif;
+  width: 100vw;
+  color: white;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s ease;
+  box-sizing: border-box;
+}
+
+/*styling for the icon/animation in header*/
+
+.circleone {
+  border: solid 2px magenta;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+.circletwo {
+  border: solid 1px white;
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+}
+
+.circlethree {
+  border: solid 2px lime;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.circlefour {
+  border: solid 1px white;
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+}
+
+.circlefive {
+  border: solid 2px magenta;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.big {
+  height: 50px;
+  width: 50px;
+}
+
+.mag {
+  border: solid 1px blue;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
+ 0 0 70px #8400C1, 0 0 80px #8400C1, 0 0 100px #8400C1, 0 0 150px #8400C1;
+
+}
+
+.lim {
+  border: solid 3px lime;
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de,
+   0 0 70px #8400C1, 0 0 80px #8400C1, 0 0 100px #8400C1, 0 0 150px #8400C1;
+}
+
+/* -----------end of icon------------- */
+
+
+
+/*styling for title/header */
+
+h1{
+  font-size: 75pt;
+  letter-spacing: 20px;
+  color: purple;
+  text-shadow: 2px 2px 2px lime;
+  margin-left: 5%;
+  padding-left: 10%;
+  align-self: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  height: 23%;
+}
+
+/*-------end of header---*/
+
+/*-- style for index page --*/
+
+/* container that holds pick category box */
+.bcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 60%;
+  width: 60%;
+  box-shadow: 0px 1px 2px 2px #00ff00, 0px 2px 3px 4px #fff;
+}
+
+/*--Pick category--*/
+.start{
+  color: lime;
+  font-size: 30pt;
+  letter-spacing: 12px;
+  text-shadow: 2px 2px 2px purple;
+}
+
+/*--ul that holds categories--*/
+.catm{
+  background-color: rgba(100,100,100, .5);
+  color: white;
+  height: 65%;
+  width: 100%;
+  overflow: auto;
+}
+
+/*--categories--*/
+.categories {
+  width: 80%;
+  overflow: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-align: center;
+  font-size: 20pt;
+}
+
+/*--hides categories, used with classToggle --*/
+.hide {
+  display: none;
+}
+
+/*----end of index page styles -- */
+
+/*---page with questions--*/
+
+/*--main container */
+.container {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+/*--styles for questions and options--*/
+.questionc {
+  width: 90%;
+}
+
+.question {
+  font-size: 30pt;
+  color: lime;
+  text-shadow: 1px 1px white;
+}
+
+.optionsc {
+  width: 65%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 1%;
+  margin-bottom: 0%;
+}
+
+.option1, .option2, .option3, .option4 {
+  height: 95%;
+  width: 95%;
+  border-radius: 1%;
+  margin: 1%;
+}
+
+.option1, .option4 {
+  border: solid lime 1px;
+  color: purple;
+  box-shadow: 1px 0px 1px 2px white;
+}
+
+.option2, .option3 {
+  border: solid purple 1px;
+  color: lime;
+  box-shadow: 1px 0px 1px 2px white;
+}
+
+.row {
+  width: 95%;
+  height: 95%;
+  margin-top: 1%;
+}
+
+.opt {
+  font-size: 20pt;
+}
+
+/*---end of question page style---*/
