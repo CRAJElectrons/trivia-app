@@ -211,5 +211,8 @@ li {
 .opt {
   font-size: 20pt;
 }
+.remove{
+    display : none;
+  }
 
 /*---end of question page style---*/
