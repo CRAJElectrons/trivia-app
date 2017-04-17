@@ -219,4 +219,28 @@ li {
   color:white;
 
 }
+.timeup{
+    border: solid lime 1px;
+  color: purple;
+  box-shadow: 1px 0px 1px 2px white;
+  font-size: 20pt;
+
+}
+.done{
+    border: solid purple 1px;
+  color: lime;
+  box-shadow: 1px 0px 1px 2px white;
+    font-size: 20pt;
+}
+
+.timer{
+  font-size: 20pt;
+}
+
+.scoreboard{
+  font-size: 20pt;
+}
+
+
+
 /*---end of question page style---*/
